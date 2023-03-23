@@ -31,7 +31,7 @@ export class ConvertService {
 
   constructor() {
     // Get the base rates from the remote API
-    this.getRemoteBaseRates().then((rates) => {
+    /*this.getRemoteBaseRates().then((rates) => {
       this.setBaseRates(rates);
       this.setCalcRates();
       this.updateRemoteBaseRates();
