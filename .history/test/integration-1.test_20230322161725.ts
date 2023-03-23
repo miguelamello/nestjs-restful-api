@@ -1,0 +1,29 @@
+
+import env from './env-config';
+
+describe('GET /transactions/', () => {
+
+  const endpoint = `${env.protocol}://${env.host}:${env.port}/transactions/`;
+
+  it(
+    `
+      *** Integration Testing ***
+
+      This endpoint must returns an html containing the complete 
+      microservice documentation.
+      
+      *** 
+        Please verify if the test environment variables in "env-config.ts" 
+        matches your setup and also if server is running in background. 
+      ***
+    `, 
+    async () => {
+      const promisse = await fetch(endpoint);
+      console.log();
+      //const response = promisse.json();
+      //expect(response.status).toBe(200);
+      //expect((response.json()).includes('CURRENCY CONVERSION CALCULATOR MICROSERVICE DOCUMENTATION')).toBeTruthy();
+    }
+  );
+  
+});
