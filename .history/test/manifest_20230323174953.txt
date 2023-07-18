@@ -1,8 +1,0 @@
-MANIFESTO DE TESTES DE INTEGRAÇÃO E UNITÁRIOS
-===============================================
-
-1) 1.test.ts 
-
-This endpoint must return an html containing the complete microservice documentation.
-
-

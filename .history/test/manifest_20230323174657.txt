@@ -1,4 +1,0 @@
-MANIFESTO DE TESTES DE INTEGRAÇÃO E UNITÁRIOS
-===============================================
-
-
